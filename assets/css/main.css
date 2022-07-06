@@ -951,6 +951,10 @@ About Us Section start
   position: relative;
   z-index: 1;
 }
+/* .about-us .right-image img{
+  width: 100%;
+  height: auto;
+} */
 
 .about-us:after {
   /* background-image: url(../img/about-bg.jpg); */
@@ -964,6 +968,23 @@ About Us Section start
   transform: translateY(-50%);
   z-index: 0;
 }
+@media (max-width: 600px){
+  .about-us .right-image img{
+    width: 100%;
+  }
+  .section-header h2{
+    font-size: 24px;
+  }
+  .pricing-tables .section-heading {
+    margin-bottom: 5px;
+  }
+
+}
+
+
+
+
+
 /*
 ----------------------------------------------------------------
 About Us Section End
