@@ -888,6 +888,329 @@ section {
   background: #2aa5df;
 }
 
+
+/*
+---------------------------------------------
+About Us Section start
+---------------------------------------------
+*/
+
+.about-us {
+  padding-top: 130px;
+  position: relative;
+}
+
+.about-us .section-heading {
+  margin-bottom: 45px;
+}
+
+.about-us .section-heading,
+.about-us .box-item,
+.about-us p,
+.about-us .box-item .gradient-button,
+.about-us .box-item span {
+  position: relative;
+  z-index: 1;
+}
+
+.about-us .box-item {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+
+.about-us .box-item h4 a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 8px;
+  color: #2a2a2a;
+  transition: all .3s;
+}
+
+.about-us .box-item p {
+  margin-bottom: 0px;
+}
+
+.about-us .box-item:hover h4 a {
+  color: #4b8ef1;
+}
+
+.about-us .gradient-button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-us span {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.about-us .right-image {
+  position: relative;
+  z-index: 1;
+}
+
+.about-us:after {
+  /* background-image: url(../img/about-bg.jpg); */
+  width: 777px;
+  height: 1132px;
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+/*
+----------------------------------------------------------------
+About Us Section End
+----------------------------------------------------------------
+*/
+
+/*--------------------------------------------------------------
+# Pricing Section Start
+--------------------------------------------------------------*/
+
+.pricing-tables {
+  padding-top: 130px;
+}
+
+.pricing-tables  .section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pricing-tables  .section-heading p {
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.pricing-item-regular {
+  margin-top: 30px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
+  border-radius: 50px;
+  padding: 90px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: var(--linear);
+}
+:root{
+  --linear:linear-gradient(to right, #373b44, #4286f4);
+  --prolinear:linear-gradient(to right, #1f4037, #99f2c8);
+}
+
+.pricing-item-regular:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/regular-table-top.png);
+  z-index: 0;
+  content: '';
+  width: 274px;
+  height: 221px;
+}
+
+.pricing-item-regular:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../img/regular-table-bottom.png);
+  z-index: 0;
+  content: '';
+  width: 370px;
+  height: 171px;
+}
+
+.pricing-item-regular span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricing-item-regular h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.pricing-item-regular .icon img {
+  width: 120px;
+  height: 106px;
+  margin-bottom: 30px;
+}
+
+.pricing-item-regular ul li {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.pricing-item-regular ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.pricing-item-regular ul li.non-function {
+  color: #fff;
+  /* text-decoration: line-through; */
+}
+
+.pricing-item-regular .border-button {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.pricing-item-pro {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
+  border-radius: 50px;
+  padding: 120px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: var(--prolinear);
+}
+
+
+.pricing-item-pro:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/pro-table-top.png);
+  z-index: 0;
+  content: '';
+  width: 281px;
+  height: 251px;
+}
+
+.pricing-item-pro:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/pro-table-bottom.png);
+  z-index: 0;
+  content: '';
+  width: 100%;
+  height: 201px;
+}
+
+.pricing-item-pro span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricing-item-pro h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.pricing-item-pro .icon img {
+  width: 120px;
+  height: 106px;
+  margin-bottom: 30px;
+}
+
+.pricing-item-pro ul li {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.pricing-item-pro ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.pricing-item-pro ul li.non-function {
+  color: #fff;
+  /* text-decoration: line-through; */
+}
+
+.pricing-item-pro .border-button {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+.border-button a {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  color: #4b8ef1 !important;
+  border: 1px solid #4b8ef1;
+  text-transform: capitalize;
+  font-size: 15px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+}
+
+.border-button a:hover {
+  background-color: #4b8ef1;
+  color: #fff !important;
+}
+/*--------------------------------------------------------------
+# Pricing Section End
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Cloued Features Section Start
+--------------------------------------------------------------*/
+.features-section {
+	margin-top: 160px;
+}
+.features-section .section-heading {
+	text-align: center;
+}
+.features-section .section-heading h2 {
+	color: #1e1e1e;
+}
+.features-section .feature-item {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.features-section .feature-item .icon {
+	float: left;
+	margin-top: 12px;
+}
+.features-section .feature-item .icon img {
+	max-width: 80px;
+	margin-right: 30px;
+}
+.features-section .feature-item h4 {
+	font-size: 18px;
+	color: #1e1e1e;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+}
+.features-section .feature-item p {
+	margin-left: 106px;
+}
+/*--------------------------------------------------------------
+# Cloued Features Section End
+--------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 # Recent Blog Posts Section
 --------------------------------------------------------------*/
@@ -1333,8 +1656,8 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left top no-repeat;
-  background-size: contain;
+  background: url("../img/contact-bg.jpg") left top no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -1343,7 +1666,9 @@ section {
     background-position: center 50px;
   }
 }
-
+.pricing-item-pro{
+  margin-top: 30px;
+}
 .contact:before {
   content: "";
   background: rgba(255, 255, 255, 0.7);
